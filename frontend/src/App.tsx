@@ -2,6 +2,7 @@ import Footer from "components/Footer";
 import NavBar from "components/NavBar";
 import BarChart from "components/BarChart";
 import DataTable from "components/DataTable";
+import DonutChart from "components/DonutChart";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           
           <div className="col-sm-6">
             <h5 className="text-center text-secondary">Todas as vendas</h5>
-            <BarChart/>
+            <DonutChart/>
           </div>
         </div>
 
